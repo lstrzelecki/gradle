@@ -1,0 +1,13 @@
+# Gradle 
+.gradle
+gradle
+build
+
+# Idea 
+*.iml
+*.ipr
+*.iws
+.idea/
+
+atlassian-ide-plugin.xml
+
