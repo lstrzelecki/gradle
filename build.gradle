@@ -1,1 +1,11 @@
-apply plugin: 'java'
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+}
+allprojects {
+    group = 'org.gradle.sample'
+    version = '1.0'
+}
+
